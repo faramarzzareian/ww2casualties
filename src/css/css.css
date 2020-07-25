@@ -1,0 +1,176 @@
+.first{
+  padding: 2%;
+}
+.nav-item{
+  width: 30%;
+  text-align: center;
+  color:red; 
+}
+#profile{
+  width: 100%;
+}
+.bubbleC{
+ 
+  float: left;
+  height:80%;
+
+}
+.bubble1{
+  width:13%;
+  height:600px;
+  overflow-y: scroll;
+}
+.bubble1 > div{
+  width: 100%;
+  height: 80%;
+}
+.bubble2{
+  width:55%;
+  height:590px;
+}
+.bubble3{
+  width:20%;
+  height:50%;
+
+}
+.lefts{
+  float:left;
+}
+.colorP{
+  /* background-color:#de8383; */
+  width: 8%;
+  height: 20px;
+}
+.textP{
+  width:85%
+}
+.axis {
+    font: 10px sans-serif;
+  }
+
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+  }
+  svg text.percent{
+    fill:white;
+    text-anchor:middle;
+    font-size:18px;
+}
+.comparison{
+  float: left;
+  height:100%;
+}.comparison2{
+  width: 100%;
+}
+.bubble3>svg:last-child{
+    margin-top: -80px;
+    margin-left: 80px;
+}
+.warfooter{
+  width: 100%;
+  height: 1px;
+}
+#home{
+  height: 100%;
+  width: 100%;
+}
+.war{
+  height:80%
+}
+.war1{
+  float:left;
+  width:10%;
+  height: 100%;
+}
+.war2{
+  float:left;
+  width:45%;
+  height: 100%;
+}
+.war3{
+  float:left;
+  width:45%;
+  height: 100%;
+  margin-top: 100px;
+}
+
+.names {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+  }
+
+    /* Tooltip CSS */
+    .d3-tip {
+    line-height: 1.5;
+    font-weight: 400;
+    font-family:"avenir next", Arial, sans-serif;
+    padding: 6px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #FFA500;
+    border-radius: 1px;
+    pointer-events: none;
+    }
+
+    /* Creates a small triangle extender for the tooltip */
+    .d3-tip:after {      
+      box-sizing: border-box;
+      display: inline;
+      font-size: 8px;
+      width: 100%;
+      line-height: 1.5;
+      color: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      pointer-events: none;
+      
+    }
+
+    /* Northward tooltips */
+    .d3-tip.n:after {
+      content: "\25BC";
+      margin: -1px 0 0 0;
+      top: 100%;
+      left: 0;
+      text-align: center;
+    }
+
+    /* Eastward tooltips */
+    .d3-tip.e:after {
+      content: "\25C0";
+      margin: -4px 0 0 0;
+      top: 50%;
+      left: -8px;
+    }
+
+    /* Southward tooltips */
+    .d3-tip.s:after {
+      content: "\25B2";
+      margin: 0 0 1px 0;
+      top: -8px;
+      left: 0;
+      text-align: center;
+    }
+
+    /* Westward tooltips */
+    .d3-tip.w:after {
+      content: "\25B6";
+      margin: -4px 0 0 -1px;
+      top: 50%;
+      left: 100%;
+    }
+
+/*    text{
+      pointer-events:none;
+    }*/
+
+    .details{
+      color:white;
+    }
+    .col-3{
+      background-color: gray;
+      color:rgb(219, 218, 218) ;
+      height: 600px;
+    }

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<script src='./src/js/jquery.js'></script>
+<style>
+    
+    .names {
+        fill: none;
+        stroke: #fff;
+        stroke-linejoin: round;
+    }
+
+    /* Tooltip CSS */
+    .d3-tip {
+        line-height: 1.5;
+        font-weight: 400;
+        font-family: "avenir next", Arial, sans-serif;
+        padding: 6px;
+        background: rgba(0, 0, 0, 0.6);
+        color: #FFA500;
+        border-radius: 1px;
+        pointer-events: none;
+    }
+
+    /* Creates a small triangle extender for the tooltip */
+    .d3-tip:after {
+        box-sizing: border-box;
+        display: inline;
+        font-size: 8px;
+       
+        line-height: 1.5;
+        color: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        pointer-events: none;
+
+    }
+
+    /* Northward tooltips */
+    .d3-tip.n:after {
+        content: "\25BC";
+        margin: -1px 0 0 0;
+        top: 70%;
+        left: 0;
+        text-align: center;
+    }
+
+    /* Eastward tooltips */
+    .d3-tip.e:after {
+        content: "\25C0";
+        margin: -4px 0 0 0;
+        top: 10%;
+        left: -8px;
+    }
+
+    /* Southward tooltips */
+    .d3-tip.s:after {
+        content: "\25B2";
+        margin: 0 0 1px 0;
+        top: -8px;
+        left: 0;
+        text-align: center;
+    }
+
+    /* Westward tooltips */
+    .d3-tip.w:after {
+        content: "\25B6";
+        margin: -4px 0 0 -1px;
+        top: 50%;
+        left: 100%;
+    }
+
+    /*    text{
+          pointer-events:none;
+        }*/
+
+    .details {
+        color: white;
+    }
+
+</style>
+<body>
+<!--year buttons here-->
+<div class="text-center">
+
+    <select id="select_year" onchange="show_all()">
+        <option  selected="selected">Year</option>
+        <option value="1939">1939</option>
+        <option value="1940">1940</option>
+        <option value="1941">1941</option>
+        <option value="1942">1942</option>
+        <option value="1943">1943</option>
+        <option value="1944">1944</option>
+        <option value="1945">1945</option>
+       
+    </select>
+
+</div>
+ 
+
+<script src="./src/js/d3.v4.min.js"></script>
+<script src="./src/js/queue.v1.min.js"></script>
+<script src="./src/js/topojson.v1.min.js"></script>
+<script src="./src/js/d3-tip.js"></script>
+<script src="./src/js/d3-geo-projection.v1.min.js"></script>
+  
+ 
+ 
+<script>
+    const format = d3.format(',');
+    const dead = [];
+    const yearPopulation = [];
+
+    function loadPopulation() {
+        // population read
+        d3.tsv("world_population.tsv", function (data) {
+            for (let j = 0; j < data.length; j++) {
+                const obj = {};
+                obj["id"] = data[j].id;
+                obj["name"] = data[j].name;
+                obj["population"] = data[j].population;
+                yearPopulation.push(obj);
+            }
+        });
+
+
+        // died number read
+        d3.csv("./cs.csv", function (data) {
+            for (let j = 0; j < data.length; j++) {
+                const obj = {};
+                obj["country"] = data[j].country;
+                obj["date"] = data[j].date;
+                obj["value"] = data[j].value;
+                dead.push(obj);
+            }
+        });
+    }
+
+    // Set tooltips
+    var tip = d3.tip()
+        .attr('class', 'd3-tip')
+        .offset([100, 0])
+        .html(function (d) {
+            return "<strong>Country: </strong><span class='details'>" + d.properties.name + "<br></span>" + "<strong>Total: </strong><span class='details'>" + format(d.population) + "</span>";
+        });
+
+    let margin = {top:  0, right: 0, bottom: 0, left: 0},
+        width = 960 - margin.left - margin.right,
+        height = 548   ;
+
+    let color = d3.scaleThreshold()
+        .domain([10000, 50000, 100000, 500000, 1000000, 5000000, 10000000, 50000000, 100000000, 500000000, 1500000000])
+        .range(["rgb(247,251,255)", "rgb(247,240,240)", "rgb(222,235,247)", "rgb(198,219,239)", "rgb(158,202,225)", "rgb(107,174,214)", "rgb(66,146,198)", "rgb(33,113,181)", "rgb(8,81,156)", "rgb(8,48,107)", "rgb(3,19,43)"]);
+
+    var path = d3.geoPath();
+
+    var svg = d3.select("body")
+        .append("div")
+        .append("svg")
+        .attr("width", width)
+        .attr("height", height)
+        .attr("style", "margin-top:0px")
+        .append('g')
+        .attr('class', 'map');
+
+    var projection = d3.geoMercator()
+        .scale(130)
+        .translate([width / 2, height / 1.5]);
+
+    var path = d3.geoPath().projection(projection);
+
+    svg.call(tip);
+
+    queue()
+        .defer(d3.json, "world_countries.json")
+        .defer(d3.tsv, "world_population.tsv")
+        .await(ready);
+
+    function ready(error, data, population) {
+        var populationById = {};
+
+        population.forEach(function (d) {
+            populationById[d.id] = d.population;
+        });
+        data.features.forEach(function (d) {
+            d.population = populationById[d.id]
+        });
+
+        svg.append("g")
+            .attr("class", "countries")
+            .selectAll("path")
+            .data(data.features)
+            .enter().append("path")
+            .attr("d", path)
+            .style("fill", function (d) {
+                return color(populationById[d.id]);
+            })
+            .style('stroke', 'white')
+            .style('stroke-width', 1.5)
+            .style("opacity", 0.8)
+            // tooltips
+            .style("stroke", "white")
+            .style('stroke-width', 0.3)
+            .on('mouseover', function (d) {
+                tip.show(d);
+
+                d3.select(this)
+                    .style("opacity", 1)
+                    .style("stroke", "white")
+                    .style("stroke-width", 3);
+            })
+            .on('mouseout', function (d) {
+                tip.hide(d);
+
+                d3.select(this)
+                    .style("opacity", 0.8)
+                    .style("stroke", "white")
+                    .style("stroke-width", 0.3);
+            });
+
+        svg.append("path")
+            .datum(topojson.mesh(data.features, function (a, b) {
+                return a.id !== b.id;
+            }))
+            // .datum(topojson.mesh(data.features, function(a, b) { return a !== b; }))
+            .attr("class", "names")
+            .attr("d", path);
+    }
+
+    function show_all() {
+        color = d3.scaleThreshold()
+            .domain([10, 50, 100, 500, 1000, 5000, 10000, 50000, 100000, 500000, 1500000])
+            .range(["rgb(247,251,255)", "rgb(247,240,240)", "rgb(222,235,247)", "rgb(198,219,239)", "rgb(158,202,225)", "rgb(107,174,214)", "rgb(66,146,198)", "rgb(33,113,181)", "rgb(8,81,156)", "rgb(8,48,107)", "rgb(3,19,43)"]);
+        // container for difference between population and dead
+        let difference = [];
+
+        // initialize difference array
+        for (let i = 0; i < yearPopulation.length; i++) {
+            let obj = {};
+            obj["id"] = yearPopulation[i].id;
+            obj["name"] = yearPopulation[i].name;
+            obj["population"] = Number(0).toString();
+            difference.push(obj);
+        }
+
+        // get the year from DOM
+        let year = document.getElementById("select_year").value;
+
+        // get the array of which the year is same as the year from DOM
+        let caus = dead.filter(d => new Date(d.date).getFullYear() === Number(year));
+
+
+        caus.forEach(function (cau) {
+            let country_match_array = difference.filter(item => item.name === cau.country);
+
+            let total_num = 0;
+            country_match_array.forEach(function (country_match) {
+                let dead_num = parseInt(cau.value);
+                if (dead_num !== 0) {
+                    total_num += parseInt(cau.value);
+                    country_match.population = (parseInt(country_match.population) + total_num).toString();
+                }
+
+            });
+        });
+
+        d3.json("world_countries.json", function (data) {
+
+            queue()
+                .defer(ready, null, data, difference);
+            svg.call(tip);
+        });
+    }
+
+    window.onload = function () {
+        loadPopulation();
+    };
+
+</script>
+</body>
+</html>

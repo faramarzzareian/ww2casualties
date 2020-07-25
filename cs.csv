@@ -1,0 +1,637 @@
+regionid,country,date,value
+1,Albania,8/31/1945,30000
+2,Australia,8/31/1945,39800
+2,Australia,8/31/1945,700
+3,Austria,8/31/1945,0
+3,Austria,8/31/1945,62500
+3,Austria,8/31/1945,57500
+4,Belgium,8/31/1945,12100
+4,Belgium,8/31/1945,48900
+4,Belgium,8/31/1945,27000
+5,Brazil,8/31/1945,1000
+5,Brazil,8/31/1945,1000
+6,Bulgaria,8/31/1945,22000
+6,Bulgaria,8/31/1945,3000
+7,Burma,8/31/1945,22000
+7,Burma,8/31/1945,250000
+8,Canada,8/31/1945,45400
+8,Canada,8/31/1945,0
+9,China,8/31/1945,3500000
+9,China,8/31/1945,50000
+10,Cuba,8/31/1945,0
+10,Cuba,8/31/1945,100
+11,Czechoslovakia,8/31/1945,25000
+11,Czechoslovakia,8/31/1945,222350
+11,Czechoslovakia,8/31/1945,77650
+12,Denmark,8/31/1945,2100
+12,Denmark,8/31/1945,1012
+12,Denmark,8/31/1945,88
+13,Dutch East Indies,8/31/1945,0
+13,Dutch East Indies,8/31/1945,3500000
+14,Estonia,8/31/1945,0
+14,Estonia,8/31/1945,48250
+14,Estonia,8/31/1945,1750
+15,Ethiopia,8/31/1945,5000
+15,Ethiopia,8/31/1945,95000
+16,Finland,8/31/1945,95000
+16,Finland,8/31/1945,2000
+17,France,8/31/1945,132600
+17,France,8/31/1945,274000
+17,France,6/22/1940,70000
+17,France,8/31/1945,76000
+18,French Indochina,8/31/1945,0
+18,French Indochina,8/31/1945,1250000
+19,Germany,8/31/1945,2161500
+19,Germany,9/30/1939,15000
+19,Germany,10/31/1939,3000
+19,Germany,11/30/1939,1000
+19,Germany,12/31/1939,0
+19,Germany,1/31/1940,2000
+19,Germany,2/29/1940,0
+19,Germany,3/31/1940,5000
+19,Germany,4/30/1940,3000
+19,Germany,5/31/1940,21000
+19,Germany,6/30/1940,29000
+19,Germany,7/31/1940,7000
+19,Germany,8/31/1940,4000
+19,Germany,9/30/1940,4000
+19,Germany,10/31/1940,5033
+19,Germany,11/30/1940,1000
+19,Germany,12/31/1940,2000
+19,Germany,1/31/1941,10000
+19,Germany,2/28/1941,1000
+19,Germany,3/31/1941,4000
+19,Germany,4/30/1941,4000
+19,Germany,5/31/1941,13000
+19,Germany,6/30/1941,29000
+19,Germany,7/31/1941,67132
+19,Germany,8/31/1941,51066
+19,Germany,9/30/1941,53033
+19,Germany,10/31/1941,44099
+19,Germany,11/30/1941,38000
+19,Germany,12/31/1941,42198
+19,Germany,1/31/1942,53165
+19,Germany,2/28/1942,52099
+19,Germany,3/31/1942,46132
+19,Germany,4/30/1942,24066
+19,Germany,5/31/1942,44099
+19,Germany,6/30/1942,34033
+19,Germany,7/31/1942,46099
+19,Germany,8/31/1942,74231
+19,Germany,9/30/1942,46033
+19,Germany,10/31/1942,30000
+19,Germany,11/30/1942,38231
+19,Germany,12/31/1942,83792
+19,Germany,1/31/1943,185376
+19,Germany,2/28/1943,74363
+19,Germany,3/31/1943,59099
+19,Germany,4/30/1943,21066
+19,Germany,5/31/1943,31099
+19,Germany,6/30/1943,21066
+19,Germany,7/31/1943,79231
+19,Germany,8/31/1943,66198
+19,Germany,9/30/1943,69495
+19,Germany,10/31/1943,61330
+19,Germany,11/30/1943,77396
+19,Germany,12/31/1943,66330
+19,Germany,1/31/1944,81330
+19,Germany,2/29/1944,91495
+19,Germany,3/31/1944,112759
+19,Germany,4/30/1944,92363
+19,Germany,5/31/1944,78495
+19,Germany,6/30/1944,182178
+19,Germany,7/31/1944,215013
+19,Germany,8/31/1944,348960
+19,Germany,9/30/1944,151957
+19,Germany,10/31/1944,184089
+19,Germany,11/30/1944,103561
+19,Germany,12/31/1944,159386
+19,Germany,1/31/1945,451742
+19,Germany,2/28/1945,294772
+19,Germany,3/31/1945,284442
+19,Germany,4/30/1945,281848
+19,Germany,5/31/1945,94528
+19,Germany,6/30/1945,20066
+19,Germany,7/31/1945,13000
+19,Germany,8/31/1945,27099
+19,Germany,4/28/1945,375
+19,Germany,4/21/1945,61
+19,Germany,4/20/1945,127
+19,Germany,4/14/1945,15
+19,Germany,4/10/1945,74
+19,Germany,4/16/1945,745
+19,Germany,4/7/1945,548
+19,Germany,4/6/1945,30
+19,Germany,4/5/1945,733
+19,Germany,4/4/1945,52
+19,Germany,4/4/1945,197
+19,Germany,3/27/1945,110
+19,Germany,3/26/1945,900
+19,Germany,3/22/1945,36
+19,Germany,3/21/1945,1500
+19,Germany,3/29/1945,147
+19,Germany,3/18/1945,2400
+19,Germany,3/16/1945,517
+19,Germany,3/14/1945,177
+19,Germany,3/13/1945,500
+19,Germany,3/26/1945,1547
+19,Germany,3/31/1945,1550
+19,Germany,3/2/1945,26
+19,Germany,3/1/1945,479
+19,Germany,3/1/1945,197
+19,Germany,2/27/1945,1200
+19,Germany,2/27/1945,677
+19,Germany,2/24/1945,56
+19,Germany,2/23/1945,16547
+19,Germany,2/23/1945,208
+19,Germany,2/23/1945,700
+19,Germany,2/22/1945,206
+19,Germany,2/22/1945,250
+19,Germany,2/23/1945,445
+19,Germany,2/23/1945,387
+19,Germany,2/23/1945,61
+19,Germany,2/23/1945,500
+19,Germany,2/23/1945,586
+19,Germany,2/23/1945,26
+19,Germany,2/23/1945,172
+19,Germany,2/21/1945,1356
+19,Germany,2/17/1945,28
+19,Germany,2/15/1945,23850
+19,Germany,2/12/1945,68
+19,Germany,2/9/1945,27
+19,Germany,1/17/1945,2
+19,Germany,1/16/1945,2250
+19,Germany,1/15/1945,50
+19,Germany,1/8/1945,505
+19,Germany,1/2/1945,1794
+19,Germany,1/1/1945,47
+19,Germany,12/31/1944,26
+19,Germany,12/29/1944,65
+19,Germany,12/22/1944,154
+19,Germany,12/17/1944,562
+19,Germany,12/17/1944,707
+19,Germany,12/18/1944,56
+19,Germany,12/18/1944,65
+19,Germany,12/13/1944,54456
+19,Germany,12/4/1944,69
+19,Germany,12/5/1944,235
+19,Germany,12/4/1944,6500
+19,Germany,12/3/1944,331
+19,Germany,11/27/1944,2850
+19,Germany,11/26/1944,65
+19,Germany,11/21/1944,64
+19,Germany,11/16/1944,3106
+19,Germany,11/6/1944,109
+19,Germany,11/4/1944,997
+19,Germany,10/26/1944,151
+19,Germany,10/25/1944,1182
+19,Germany,10/20/1944,237
+19,Germany,10/19/1944,338
+19,Germany,10/16/1944,245
+19,Germany,10/15/1944,12
+19,Germany,10/15/1944,640
+19,Germany,10/14/1944,2550
+19,Germany,10/12/1944,82
+19,Germany,10/9/1944,71
+19,Germany,10/6/1944,66
+19,Germany,10/6/1944,800
+19,Germany,10/3/1944,353
+19,Germany,9/25/1944,109
+19,Germany,9/19/1944,144
+19,Germany,9/12/1944,957
+19,Germany,9/12/1944,11500
+19,Germany,9/10/1944,281
+19,Germany,8/30/1944,34
+19,Germany,8/29/1944,121
+19,Germany,8/25/1944,110
+19,Germany,3/29/1942,651
+19,Germany,8/25/1944,5615
+19,Germany,8/19/1944,1053
+19,Germany,8/4/1944,26
+19,Germany,7/29/1944,34
+19,Germany,7/29/1944,167
+19,Germany,7/25/1944,884
+19,Germany,7/21/1944,135
+19,Germany,7/19/1944,74
+19,Germany,7/7/1944,20
+19,Germany,7/6/1944,23
+19,Germany,6/24/1944,115
+19,Germany,6/18/1944,31
+19,Germany,4/25/1944,136
+19,Germany,4/23/1944,748
+19,Germany,4/22/1944,115
+19,Germany,4/19/1944,21
+19,Germany,4/10/1944,82
+19,Germany,3/31/1944,74
+19,Germany,3/26/1944,2323
+19,Germany,3/25/1944,1212
+19,Germany,3/19/1944,421
+19,Germany,3/16/1944,88
+19,Germany,3/8/1944,200
+19,Germany,3/2/1944,121
+19,Germany,2/26/1944,730
+19,Germany,2/25/1944,138
+19,Germany,2/24/1944,545
+19,Germany,2/21/1944,5454
+19,Germany,2/22/1944,159
+19,Germany,2/20/1944,970
+19,Germany,2/16/1944,1500
+19,Germany,1/11/1944,28
+19,Germany,12/20/1943,185
+19,Germany,12/4/1943,1845
+19,Germany,11/23/1943,2500
+19,Germany,11/4/1943,622
+19,Germany,10/23/1943,10500
+19,Germany,10/18/1943,157
+19,Germany,10/9/1943,1245
+19,Germany,10/9/1943,450
+19,Germany,10/8/1943,101
+19,Germany,10/8/1943,132
+19,Germany,10/4/1943,529
+19,Germany,9/28/1943,196
+19,Germany,9/23/1943,201
+19,Germany,9/6/1943,107
+19,Germany,9/6/1943,652
+19,Germany,9/4/1943,653
+19,Germany,8/13/1943,181
+19,Germany,8/11/1943,585
+19,Germany,7/31/1943,1200
+19,Germany,7/26/1943,273
+19,Germany,7/25/1943,545
+19,Germany,7/30/1943,32000
+19,Germany,6/29/1943,4439
+19,Germany,6/24/1943,1900
+19,Germany,6/22/1943,180
+19,Germany,6/23/1943,532
+19,Germany,6/22/1943,532
+19,Germany,6/13/1943,500
+19,Germany,6/12/1943,600
+19,Germany,5/30/1943,3056
+19,Germany,5/17/1943,1592
+19,Germany,5/14/1943,250
+19,Germany,5/14/1943,365
+19,Germany,5/5/1943,690
+19,Germany,4/15/1943,619
+19,Germany,3/18/1943,129
+19,Germany,3/11/1943,112
+19,Germany,3/9/1943,343
+19,Germany,3/5/1943,459
+19,Germany,2/26/1943,27
+19,Germany,3/30/1943,400
+19,Germany,9/19/1942,30
+19,Germany,9/14/1942,67
+19,Germany,8/29/1942,136
+19,Germany,8/12/1942,161
+19,Germany,6/30/1942,8
+19,Germany,6/28/1942,7
+19,Germany,6/26/1942,85
+19,Germany,6/20/1942,2110
+19,Germany,6/2/1942,1200
+19,Germany,5/31/1942,446
+19,Germany,5/7/1942,7
+19,Germany,4/17/1942,12
+19,Germany,4/6/1942,12
+19,Germany,4/6/1942,73
+19,Germany,2/11/1942,7
+19,Germany,1/26/1942,26
+19,Germany,10/13/1941,9
+19,Germany,9/13/1941,8
+19,Germany,6/13/1941,29
+19,Germany,4/17/1941,20
+19,Germany,2/10/1941,101
+19,Germany,7/31/1941,2000
+19,Germany,5/19/1940,19
+19,Germany,5/10/1940,57
+19,Germany,8/31/1945,138500
+20,Greece,8/31/1945,27550
+20,Greece,8/31/1945,237000
+20,Greece,8/31/1945,63000
+21,Hungary,8/31/1945,300000
+21,Hungary,8/31/1945,50000
+21,Hungary,8/31/1945,454500
+22,Iceland,8/31/1945,0
+22,Iceland,8/31/1945,200
+23,India,8/31/1945,87000
+23,India,8/31/1945,2000000
+24,Iran,8/31/1945,200
+24,Iran,8/31/1945,0
+25,Iraq,8/31/1945,500
+25,Iraq,8/31/1945,0
+26,Ireland,8/31/1945,0
+26,Ireland,8/31/1945,200
+27,Italy,12/31/1940,12776
+27,Italy,12/31/1941,40929
+27,Italy,12/31/1942,63999
+27,Italy,12/31/1943,106989
+27,Italy,12/31/1944,41757
+27,Italy,8/31/1945,24890
+27,Italy,8/31/1945,145200
+27,Italy,8/31/1945,7750
+28,Japan,8/31/1945,2120000
+28,Japan,8/31/1945,389255
+28,Japan,8/11/1945,173
+28,Japan,7/28/1945,1184
+28,Japan,7/26/1945,259
+28,Japan,7/24/1945,187
+28,Japan,7/24/1945,820
+28,Japan,7/20/1945,137
+28,Japan,7/19/1945,791
+28,Japan,7/19/1945,1500
+28,Japan,7/19/1945,1088
+28,Japan,7/12/1945,109
+28,Japan,7/12/1945,628
+28,Japan,7/10/1945,828
+28,Japan,7/9/1945,675
+28,Japan,7/9/1945,1380
+28,Japan,7/9/1945,900
+28,Japan,7/6/1945,714
+28,Japan,7/6/1945,1090
+28,Japan,7/4/1945,129
+28,Japan,7/4/1945,1359
+28,Japan,7/3/1945,173
+28,Japan,7/2/1945,324
+28,Japan,7/1/1945,2350
+28,Japan,7/1/1945,469
+28,Japan,6/29/1945,1737
+28,Japan,6/29/1945,1300
+28,Japan,6/26/1945,592
+28,Japan,6/22/1945,169
+28,Japan,6/21/1945,11
+28,Japan,6/21/1945,341
+28,Japan,6/20/1945,426
+28,Japan,6/19/1945,624
+28,Japan,6/19/1945,1952
+28,Japan,6/18/1945,902
+28,Japan,6/17/1945,736
+28,Japan,6/17/1945,1720
+28,Japan,6/16/1945,5100
+28,Japan,6/14/1945,418
+28,Japan,6/9/1945,152
+28,Japan,6/9/1945,1200
+28,Japan,6/8/1945,2068
+28,Japan,6/6/1945,1594
+28,Japan,6/4/1945,3184
+28,Japan,5/31/1945,231
+28,Japan,5/31/1945,3150
+28,Japan,5/28/1945,3787
+28,Japan,5/24/1945,3651
+28,Japan,5/23/1945,762
+28,Japan,5/17/1945,8079
+28,Japan,5/10/1945,1093
+28,Japan,4/14/1945,841
+28,Japan,4/13/1945,2459
+28,Japan,3/18/1945,1037
+28,Japan,3/16/1945,2598
+28,Japan,3/14/1945,3115
+28,Japan,3/12/1945,602
+28,Japan,3/7/1945,90000
+28,Japan,8/8/1945,70000
+28,Japan,8/4/1945,128000
+29,Korea,8/31/1945,0
+29,Korea,8/31/1945,430500
+30,Latvia,8/31/1945,0
+30,Latvia,8/31/1945,159000
+30,Latvia,8/31/1945,71000
+31,Lithuania,8/31/1945,0
+31,Lithuania,8/31/1945,213500
+31,Lithuania,8/31/1945,136500
+32,Luxembourg,8/31/1945,0
+32,Luxembourg,8/31/1945,500
+32,Luxembourg,8/31/1945,1500
+33,Malaya,8/31/1945,0
+33,Malaya,8/31/1945,100000
+34,Malta,8/31/1945,0
+34,Malta,8/31/1945,1500
+35,Mexico,8/31/1945,0
+35,Mexico,8/31/1945,100
+36,Mongolia,8/31/1945,300
+36,Mongolia,8/31/1945,0
+37,Nauru (Australian),8/31/1945,0
+37,Nauru (Australian),8/31/1945,500
+38,Netherlands,8/31/1945,17000
+38,Netherlands,8/31/1945,181500
+38,Netherlands,8/31/1945,102500
+39,New Zealand,8/31/1945,11900
+39,New Zealand,8/31/1945,0
+40,Newfoundland,8/31/1945,0
+40,Newfoundland,8/31/1945,100
+41,Norway,8/31/1945,3000
+41,Norway,8/31/1945,5700
+41,Norway,8/31/1945,800
+42,Papua and New Guinea (Australian),8/31/1945,0
+42,Papua and New Guinea (Australian),8/31/1945,15000
+43,Philippines,8/31/1945,57000
+43,Philippines,8/31/1945,750000
+44,Poland,8/31/1945,174000
+44,Poland,8/31/1945,2630000
+44,Poland,10/6/1939,66000
+44,Poland,8/31/1945,2850000
+45,Portuguese Timor,8/31/1945,0
+45,Portuguese Timor,8/31/1945,55000
+46,Romania,8/31/1945,300000
+46,Romania,8/31/1945,296000
+46,Romania,8/31/1945,204000
+47,Ruanda-Urundi   (Belgian),8/31/1945,0
+47,Ruanda-Urundi   (Belgian),8/31/1945,150000
+48,Singapore,8/31/1945,0
+48,Singapore,8/31/1945,50000
+49,Slovakia,8/31/1945,65500
+50,South Africa,8/31/1945,11900
+50,South Africa,8/31/1945,0
+50,South Pacific Mandate (Japanese),8/31/1945,0
+50,South Pacific Mandate (Japanese),8/31/1945,57000
+51,Soviet Union,8/31/1945,9000000
+51,Soviet Union,9/30/1941,1916709
+51,Soviet Union,12/31/1941,907196
+51,Soviet Union,3/31/1942,607784
+51,Soviet Union,6/30/1942,758608
+51,Soviet Union,9/30/1942,1102046
+51,Soviet Union,12/31/1942,463957
+51,Soviet Union,3/31/1943,654043
+51,Soviet Union,6/30/1943,172714
+51,Soviet Union,9/30/1943,723470
+51,Soviet Union,12/31/1943,530960
+51,Soviet Union,3/31/1944,513685
+51,Soviet Union,6/30/1944,309832
+51,Soviet Union,9/30/1944,459711
+51,Soviet Union,12/31/1944,304274
+51,Soviet Union,3/31/1945,501769
+51,Soviet Union,6/30/1945,218966
+51,Soviet Union,8/31/1945,900000
+52,Sweden,8/31/1945,0
+52,Sweden,8/31/1945,600
+53,Switzerland,8/31/1945,0
+53,Switzerland,8/31/1945,100
+54,Thailand,8/31/1945,5600
+54,Thailand,8/31/1945,2000
+55,Turkey,8/31/1945,200
+55,Turkey,8/31/1945,1200
+56,United Kingdom,8/31/1945,16591
+56,United Kingdom,9/7/1940,430
+56,United Kingdom,5/8/1941,1750
+56,United Kingdom,11/29/1940,35
+56,United Kingdom,5/15/1944,657
+56,United Kingdom,7/2/1942,355
+56,United Kingdom,5/3/1945,1200
+56,United Kingdom,5/31/1944,40000
+56,United Kingdom,4/23/1941,76
+56,United Kingdom,3/21/1941,292
+56,United Kingdom,11/30/1940,630
+56,United Kingdom,2/21/1941,227
+56,United Kingdom,10/25/1940,19
+56,United Kingdom,11/28/1940,796
+56,United Kingdom,4/10/1941,1121
+56,United Kingdom,4/16/1941,1043
+56,United Kingdom,5/4/1941,200
+56,United Kingdom,11/14/1941,467
+56,United Kingdom,3/14/1941,528
+56,United Kingdom,12/24/1940,684
+56,United Kingdom,7/1/1942,3086
+56,United Kingdom,12/1/1942,3857
+56,United Kingdom,2/1/1943,3086
+56,United Kingdom,7/1/1944,18129
+56,United Kingdom,6/1/1945,1543
+56,United Kingdom,3/1/1941,2700
+56,United Kingdom,5/1/1944,7715
+56,United Kingdom,10/1/1942,8100
+56,United Kingdom,4/1/1944,5786
+56,United Kingdom,12/1/1945,1157
+56,United Kingdom,8/1/1944,11572
+56,United Kingdom,12/1/1940,2314
+56,United Kingdom,9/1/1939,386
+56,United Kingdom,8/1/1940,1543
+56,United Kingdom,4/1/1940,1157
+56,United Kingdom,5/1/1940,21215
+56,United Kingdom,10/1/1941,1157
+56,United Kingdom,4/1/1941,4629
+56,United Kingdom,9/1/1942,5014
+56,United Kingdom,5/1/1942,5014
+56,United Kingdom,6/1/1943,5014
+56,United Kingdom,4/1/1943,10029
+56,United Kingdom,10/1/1943,4243
+56,United Kingdom,6/1/1941,3857
+56,United Kingdom,9/1/1944,25844
+56,United Kingdom,7/1/1945,1929
+56,United Kingdom,1/1/1942,3472
+56,United Kingdom,6/1/1944,21601
+56,United Kingdom,6/1/1942,5400
+56,United Kingdom,3/1/1943,6943
+56,United Kingdom,1/1/1944,5786
+56,United Kingdom,11/1/1942,10029
+56,United Kingdom,2/1/1945,6172
+56,United Kingdom,5/1/1943,5786
+56,United Kingdom,11/1/1939,1929
+56,United Kingdom,7/1/1943,7329
+56,United Kingdom,9/1/1945,1929
+56,United Kingdom,4/1/1942,1929
+56,United Kingdom,11/1/1940,771
+56,United Kingdom,2/1/1944,10800
+56,United Kingdom,3/1/1944,5400
+56,United Kingdom,4/1/1945,8872
+56,United Kingdom,1/1/1943,5786
+56,United Kingdom,1/1/1945,6557
+56,United Kingdom,3/1/1945,9643
+56,United Kingdom,10/1/1939,771
+56,United Kingdom,6/1/1940,10029
+56,United Kingdom,5/1/1941,3086
+56,United Kingdom,8/1/1945,1929
+56,United Kingdom,8/1/1943,6557
+56,United Kingdom,11/1/1943,6943
+56,United Kingdom,9/1/1943,5014
+56,United Kingdom,12/1/1943,5786
+56,United Kingdom,10/1/1944,9643
+56,United Kingdom,1/1/1946,771
+56,United Kingdom,7/1/1940,386
+56,United Kingdom,12/1/1941,3472
+56,United Kingdom,12/1/1944,7329
+56,United Kingdom,12/1/1939,386
+56,United Kingdom,8/1/1941,1543
+56,United Kingdom,11/1/1944,4629
+56,United Kingdom,1/1/1941,1929
+56,United Kingdom,2/1/1942,8100
+56,United Kingdom,5/1/1945,3472
+56,United Kingdom,11/1/1945,386
+56,United Kingdom,4/1/1946,771
+56,United Kingdom,11/1/1941,3472
+56,United Kingdom,2/1/1941,1543
+56,United Kingdom,8/1/1942,771
+56,United Kingdom,2/1/1940,771
+56,United Kingdom,9/1/1941,386
+56,United Kingdom,7/1/1941,1157
+56,United Kingdom,2/1/1946,1157
+56,United Kingdom,1/1/1940,386
+56,United Kingdom,3/1/1942,3086
+56,United Kingdom,10/1/1945,1157
+56,United Kingdom,10/1/1940,386
+56,United Kingdom,3/1/1946,386
+57,United States,12/31/1941,493
+57,United States,1/31/1942,517
+57,United States,2/29/1942,398
+57,United States,3/31/1942,135
+57,United States,4/30/1942,1051
+57,United States,5/31/1942,12311
+57,United States,6/30/1942,184
+57,United States,7/31/1942,159
+57,United States,8/31/1942,143
+57,United States,9/31/1942,137
+57,United States,10/31/1942,181
+57,United States,11/30/1942,1256
+57,United States,12/31/1942,1140
+57,United States,1/31/1943,1227
+57,United States,2/28/1943,1425
+57,United States,3/31/1943,1079
+57,United States,4/30/1943,1342
+57,United States,5/31/1943,1560
+57,United States,6/30/1943,731
+57,United States,7/31/1943,3141
+57,United States,8/31/1943,2150
+57,United States,9/30/1943,1678
+57,United States,10/31/1943,2033
+57,United States,11/30/1943,3738
+57,United States,12/31/1943,2488
+57,United States,1/31/1944,4079
+57,United States,2/29/1944,4992
+57,United States,3/31/1944,3781
+57,United States,4/30/1944,4363
+57,United States,5/31/1944,5994
+57,United States,6/30/1944,14839
+57,United States,7/31/1944,16806
+57,United States,8/31/1944,12442
+57,United States,9/30/1944,12816
+57,United States,10/31/1944,11844
+57,United States,11/30/1944,15825
+57,United States,12/31/1944,18389
+57,United States,1/31/1945,15424
+57,United States,2/28/1945,12724
+57,United States,3/31/1945,15467
+57,United States,4/30/1945,16390
+57,United States,5/31/1945,4898
+57,United States,6/30/1945,2124
+57,United States,7/31/1945,588
+57,United States,8/31/1945,338
+57,United States,9/30/1945,17
+57,United States,10/31/1945,9
+57,United States,11/30/1945,13
+57,United States,12/31/1945,5
+57,United States,1/31/1946,1
+57,United States,2/28/1946,0
+57,United States,3/31/1946,0
+57,United States,4/30/1946,1
+57,United States,5/31/1946,1
+57,United States,6/30/1946,1
+57,United States,7/31/1946,0
+57,United States,8/31/1946,3
+57,United States,9/30/1946,0
+57,United States,10/31/1946,0
+57,United States,11/30/1946,0
+57,United States,12/31/1946,0
+57,United States,12/31/1941,2155
+57,United States,12/31/1942,2809
+57,United States,12/31/1943,4524
+57,United States,12/31/1944,7685
+57,United States,8/31/1945,11446
+57,United States,8/31/1945,24511
+58,Yugoslavia,8/31/1945,436000
+58,Yugoslavia,8/31/1945,520500
+58,Yugoslavia,4/18/1941,10000
+58,Yugoslavia,8/31/1945,60500
